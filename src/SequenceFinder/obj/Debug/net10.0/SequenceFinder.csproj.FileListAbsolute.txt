@@ -1,0 +1,15 @@
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/bin/Debug/net10.0/SequenceFinder
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/bin/Debug/net10.0/SequenceFinder.deps.json
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/bin/Debug/net10.0/SequenceFinder.runtimeconfig.json
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/bin/Debug/net10.0/SequenceFinder.dll
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/bin/Debug/net10.0/SequenceFinder.pdb
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.GeneratedMSBuildEditorConfig.editorconfig
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.AssemblyInfoInputs.cache
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.AssemblyInfo.cs
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.csproj.CoreCompileInputs.cache
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.sourcelink.json
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.dll
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/refint/SequenceFinder.dll
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.pdb
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/SequenceFinder.genruntimeconfig.cache
+/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/obj/Debug/net10.0/ref/SequenceFinder.dll
