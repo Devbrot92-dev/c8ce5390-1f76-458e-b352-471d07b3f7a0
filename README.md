@@ -1,2 +1,14 @@
-# c8ce5390-1f76-458e-b352-471d07b3f7a0
-C# .NET coding exercise demonstrating clean implementation, unit testing, and engineering practices.
+# Coding Exercise
+
+C# .NET solution for finding the longest increasing contiguous sequence from a whitespace-separated list of integers.
+
+If multiple sequences have the same maximum length, the earliest sequence is returned.
+
+## Requirements
+
+- .NET 10 SDK
+
+## Build
+
+```bash
+dotnet build
