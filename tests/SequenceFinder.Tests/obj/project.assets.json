@@ -393,6 +393,16 @@
         "build": {
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "SequenceFinder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/SequenceFinder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SequenceFinder.dll": {}
+        }
       }
     }
   },
@@ -903,11 +913,17 @@
         "xunit.runner.visualstudio.3.1.4.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "SequenceFinder/1.0.0": {
+      "type": "project",
+      "path": "../../src/SequenceFinder/SequenceFinder.csproj",
+      "msbuildProject": "../../src/SequenceFinder/SequenceFinder.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.NET.Test.Sdk >= 17.14.1",
+      "SequenceFinder >= 1.0.0",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
       "xunit.runner.visualstudio >= 3.1.4"
@@ -938,7 +954,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/SequenceFinder.csproj": {
+              "projectPath": "/home/devbrot/c8ce5390-1f76-458e-b352-471d07b3f7a0/src/SequenceFinder/SequenceFinder.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
