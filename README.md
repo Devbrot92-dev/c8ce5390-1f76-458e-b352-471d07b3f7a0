@@ -1,3 +1,10 @@
+## Docker
+
+Build the container image:
+
+```bash
+docker build -t sequence-finder .
+
 # Coding Exercise
 
 C# .NET solution for finding the longest increasing contiguous sequence from a whitespace-separated list of integers.

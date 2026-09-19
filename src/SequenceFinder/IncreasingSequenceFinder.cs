@@ -9,9 +9,17 @@ public static class IncreasingSequenceFinder
             return string.Empty;
         }
 
-        int[] numbers = input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                             .Select(int.Parse)
-                             .ToArray();
+        string[] tokens = input.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries);
+
+        int[] numbers = new int[tokens.Length];
+
+        for (int i = 0; i < tokens.Length; i++)
+        {
+            if (!int.TryParse(tokens[i], out numbers[i]))
+            {
+                throw new FormatException($"'{tokens[i]}' is not a valid integer.");
+            }
+        }
 
         int currentStart = 0;
         int currentLength = 1;

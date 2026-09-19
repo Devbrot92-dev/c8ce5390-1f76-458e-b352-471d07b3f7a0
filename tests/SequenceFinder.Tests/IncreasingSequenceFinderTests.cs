@@ -63,5 +63,21 @@ public class IncreasingSequenceFinderTests
         Assert.Equal(expected, result);
     }
 
+    [Fact]
+    public void Find_ThrowsFormatException_WhenInputContainsInvalidValue()
+    {
+        Assert.Throws<FormatException>(
+            () => IncreasingSequenceFinder.Find("6 1 5 . 9"));
+    }
+
+    [Fact]
+    public void Find_HandlesDifferentWhitespace()
+    {
+        string result =
+            IncreasingSequenceFinder.Find("6\t1  5\n9 2");
+
+        Assert.Equal("1 5 9", result);
+    }
+
 
 }
