@@ -15,7 +15,7 @@ public class IncreasingSequenceFinderTests
 
     }
 
-     [Fact]
+    [Fact]
     public void Find_ReturnsEarliestSequence_WhenLengthsAreEqual()
     {
         string input = "6 2 4 6 1 5 9 2";

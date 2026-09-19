@@ -1,6 +1,6 @@
 ﻿using SequenceFinder;
 
-if(args.Length == 0)
+if (args.Length == 0)
 {
     Console.WriteLine("Please provide a whitespace-separated sequence of integers");
     return;

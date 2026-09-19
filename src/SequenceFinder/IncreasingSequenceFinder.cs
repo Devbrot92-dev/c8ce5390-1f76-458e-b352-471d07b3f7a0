@@ -4,7 +4,7 @@ public static class IncreasingSequenceFinder
 {
     public static string Find(string input)
     {
-        if(string.IsNullOrWhiteSpace(input))
+        if (string.IsNullOrWhiteSpace(input))
         {
             return string.Empty;
         }
@@ -13,15 +13,15 @@ public static class IncreasingSequenceFinder
                              .Select(int.Parse)
                              .ToArray();
 
-       int currentStart = 0;
-       int currentLength = 1;
+        int currentStart = 0;
+        int currentLength = 1;
 
-       int bestStart = 0;
-       int bestLength = 1;
+        int bestStart = 0;
+        int bestLength = 1;
 
-       for(int i = 1; i < numbers.Length; i++)
+        for (int i = 1; i < numbers.Length; i++)
         {
-            if(numbers[i] > numbers[i-1])
+            if (numbers[i] > numbers[i - 1])
             {
                 currentLength++;
             }
@@ -31,7 +31,7 @@ public static class IncreasingSequenceFinder
                 currentLength = 1;
             }
 
-            if(currentLength > bestLength)
+            if (currentLength > bestLength)
             {
                 bestStart = currentStart;
                 bestLength = currentLength;
